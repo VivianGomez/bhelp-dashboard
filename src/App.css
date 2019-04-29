@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#right {
+  float: right;
+  margin: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  margin-top:20px;
+  background:#FAFAFA;
+  font-family: 'Raleway', sans-serif;
+}
+.order-card {
+  color: #fff;
+}
+
+.bg-c-bl {
+  background: linear-gradient(45deg,#82b5ee,#c9dff8);
+  width: 135px;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+.round {
+  border-radius: 100px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 25px;
+}
+
+.round .round-block {
+  padding: 25px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+#sidebar {
+  vertical-align: middle;
+}
+
+#sidebar .list-group-item {
+  border-radius: 0;
+  background-color: rgb(255, 255, 255);
+  color: #282c34;
+  border-left: 0;
+  border-right: 0;
+  border-color:  rgb(255, 255, 255);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.border-title {
+  border: 0.5px solid;
+  border-color: rgb(255, 255, 255);
+}
+
+/* highlight active menu */
+#sidebar .list-group-item:not(.collapsed) {
+  background-color: rgb(255, 255, 255);
+}
+
+/* closed state */
+#sidebar .list-group .list-group-item[aria-expanded="false"]::after {
+content: " \f0d7";
+font-family: FontAwesome;
+display: inline;
+text-align: right;
+padding-left: 5px;
+}
+
+/* open state */
+#sidebar .list-group .list-group-item[aria-expanded="true"] {
+background-color: rgb(119, 176, 241);
+}
+#sidebar .list-group .list-group-item[aria-expanded="true"]::after {
+content: " \f0da";
+font-family: FontAwesome;
+display: inline;
+text-align: right;
+padding-left: 5px;
+}
+
+/* level 1*/
+#sidebar .list-group .collapse .list-group-item  {
+padding-left: 20px;
+}
+
+/* level 2*/
+#sidebar .list-group .collapse > .collapse .list-group-item {
+padding-left: 30px;
+}
+
+/* level 3*/
+#sidebar .list-group .collapse > .collapse > .collapse .list-group-item {
+padding-left: 40px;
+}
+
+@media (max-width:48em) {
+  /* overlay sub levels on small screens */
+  #sidebar .list-group .collapse.in, #sidebar .list-group .collapsing {
+      position: absolute;
+      z-index: 1;
+      width: 190px;
+  }
+  #sidebar .list-group > .list-group-item {
+      text-align: center;
+      padding: .75rem .5rem;
+      min-width: 39px;
+  }
+  /* hide caret icons of top level when collapsed */
+  #sidebar .list-group > .list-group-item[aria-expanded="true"]::after,
+  #sidebar .list-group > .list-group-item[aria-expanded="false"]::after {
+      display:none;
+  }
+}
+
+/* change transition animation to width when entire sidebar is toggled */
+#sidebar.collapse {
+-webkit-transition-timing-function: ease;
+     -o-transition-timing-function: ease;
+        transition-timing-function: ease;
+-webkit-transition-duration: .2s;
+     -o-transition-duration: .2s;
+        transition-duration: .2s;
+}
+
+#sidebar.collapsing {
+opacity: 0.8;
+width: 0;
+-webkit-transition-timing-function: ease-in;
+     -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+-webkit-transition-property: width;
+     -o-transition-property: width;
+        transition-property: width;
+
+}
+
+
