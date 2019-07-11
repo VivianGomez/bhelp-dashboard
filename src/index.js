@@ -22,7 +22,8 @@ ReactDOM.render(
         <Route path='/retencionUsuarios' component={AnaliticaRetencion} />
       </div>
   </Router>,
-  document.getElementById('root')
+  document.getElementById('root'),
+  
 );
 
 serviceWorker.unregister();
