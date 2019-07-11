@@ -26,7 +26,6 @@ class TopBar extends Component {
       );
 }
 
-
   render() {
     return (
         <div className="container">
@@ -56,8 +55,8 @@ class TopBar extends Component {
                 <div className="card bg-c-yellow order-card">
                     <div className="card-block">
                         <h6 className="m-b-20"  align="center">Con todos sus hijos</h6>
-                        <h2 className="text-right"><i className="fas fa-baby f-left"></i><span>{this.state.conTodosSusHijos}</span></h2>
-                        <p className="m-b-0">Actualizado <span className="f-right"></span></p>
+                        <h2 className="text-right"><i className="fas fa-baby f-left"></i><span>{Math.trunc((this.state.conTodosSusHijos/this.state.numeroTutores)*100)+"%"}</span></h2>
+                        <p className="m-b-0">{this.state.conTodosSusHijos +"/"+ this.state.numeroTutores}  <span className="f-right"></span></p>
                     </div>
                 </div>
             </div>

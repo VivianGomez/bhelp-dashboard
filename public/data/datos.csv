@@ -1,0 +1,191 @@
+# ----------------------------------------
+# Informe Panel de control
+# ----------------------------------------
+# Usuarios activos #
+Día N,28 días,7 días,1 día
+0000,248,130,10
+0001,215,146,21
+0002,194,124,12
+0003,194,97,5
+0004,201,56,9
+0005,219,64,21
+0006,250,94,35
+0007,252,90,5
+0008,252,73,2
+0009,252,64,0
+0010,247,61,2
+0011,245,55,1
+0012,245,38,1
+0013,244,6,2
+0014,243,3,0
+0015,243,2,1
+0016,243,3,1
+0017,242,3,0
+0018,242,3,0
+0019,242,3,1
+0020,242,2,0
+0021,216,2,1
+0022,215,2,0
+0023,184,4,3
+0024,156,5,3
+0025,110,7,4
+0026,100,7,0
+0027,99,7,0
+0028,94,7,1
+0029,77,7,1
+
+# Eventos de conversión principales #
+Día N
+
+
+# Interacción diaria de los usuarios #
+Día N,Interacción por usuario
+0000,493.4
+0001,449.9047619047619
+0002,1360.25
+0003,165.2
+0004,1170.2222222222222
+0005,885.7142857142857
+0006,296.8285714285714
+0007,553.2
+0008,30.5
+0009,0
+0010,91
+0011,73
+0012,576
+0013,25
+0014,0
+0015,1
+0016,4
+0017,0
+0018,0
+0019,72
+0020,0
+0021,1
+0022,0
+0023,232
+0024,3490.6666666666665
+0025,1756.5
+0026,0
+0027,0
+0028,184
+0029,1715
+
+Clase de pantalla,Expansiones por parte de usuarios,Interacción media de los usuarios
+MainActivity,0.577556330387334,70.11253196930946
+Menu,0.3001548493116053,54.06831119544592
+LoginActivity,0.06512098260842085,31.702564102564104
+RegistroActivity,0.04873013030516902,71.16923076923077
+SplashScreenActivity,0.008121688384194836,1.0131406044678055
+CropImageActivity,0.0003160190032760637,2.3076923076923075
+AgendaActivity,0,0
+HomeActivity,0,0
+RegistrooActivity,0,0
+DetailActivity,0,0
+ReconocerVozActivity,0,0
+DexterActivity,0,0
+EvaluarConCamaraActivity,0,0
+HomeTabs,0,0
+ContactActivity,0,0
+EntryChoiceActivity,0,0
+(not set),0,0
+
+# Ingresos totales #
+Día N,Ingresos combinados
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,0
+0028,0
+0029,0
+
+# Usuarios sin fallos #
+Aplicación,Usuarios sin fallos
+1434474254,1
+1432194133,0
+
+# Adopción de versiones de la aplicación #
+Aplicación,Versión,Estado
+1434474254,1.0.0,Correcta
+
+# Adquisición #
+Fuente,Conversiones first_open,LTV
+(direct),865,0
+
+# Cohortes de retención #
+Fecha,Semana 0,Semana 1,Semana 2,Semana 3,Semana 4,Semana 5
+7 abr. - 13 abr.,3,1,0,0,0,0
+14 abr. - 20 abr.,145,2,0,0,0,-1
+21 abr. - 27 abr.,60,4,0,1,-1,-1
+28 abr. - 4 may.,33,2,3,-1,-1,-1
+5 may. - 11 may.,0,0,-1,-1,-1,-1
+12 may. - 18 may.,2,-1,-1,-1,-1,-1
+
+# Audiencia #
+ID del país,Sesiones,Porcentaje total
+CO,260,0.9885931558935361
+US,3,0.011406844106463879
+
+Modelo de dispositivo,Usuarios
+RNE-L03,75
+Redmi Note 6 Pro,8
+(not set),4
+Redmi 4X,3
+Moto G (4),2
+Redmi 5A,2
+EML-L09,1
+MI 8 Lite,1
+Nexus 6,1
+Pixel,1
+SM-G532M,1
+SM-G960U1,1
+
+Versión OS,Usuarios
+android 8.0.0,77
+android 8.1.0,8
+android 7.1.2,5
+android 6.0,4
+android 9,4
+android 7.0,2
+android 5.0.1,1
+android 6.0.1,1
+
+Sexo,Usuarios
+
+
+Categoría
+
+
+# Audiencia #
+Plataforma,Usuarios
+"[""Android""]",100
+
+Plataforma,Usuarios
+Android,NaN
+
+Plataforma,Usuarios,Porcentaje total,Expansiones por parte de usuarios,Ingresos combinados
+Android,100,1,668.5281690140845,0

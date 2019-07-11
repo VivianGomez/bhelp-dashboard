@@ -9,7 +9,7 @@
 /coverage
 
 # production
-
+/build
 
 #Specific
 src/Firebase.js

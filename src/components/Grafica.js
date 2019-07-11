@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Bar, Line, Pie} from 'react-chartjs-2';
+import {Bar, Line, Pie, Polar} from 'react-chartjs-2';
 
 
 class Grafica extends Component{
@@ -41,6 +41,28 @@ class Grafica extends Component{
         return (
             <Line
                 data={this.state.chartData}
+                fill={false}
+                lineTension={0.3}
+                options={{
+                    title:{
+                    display:this.props.displayTitle,
+                    text:'Distribución de '+this.props.titulo,
+                    fontSize:25
+                    },
+                    legend:{
+                    display:this.props.displayLegend,
+                    position:this.props.legendPosition
+                    },
+                    reverse:false
+                }}
+                redraw={false}
+                />
+        );
+      }
+      else if(tipoGrafica === "pie"){
+        return (
+            <Pie
+                data={this.state.chartData}
                 options={{
                     title:{
                     display:this.props.displayTitle,
@@ -52,12 +74,12 @@ class Grafica extends Component{
                     position:this.props.legendPosition
                     }
                 }}
-                />
+            />
         );
       }
-      else if(tipoGrafica === "pie"){
+      else if(tipoGrafica === "polar"){
         return (
-            <Pie
+            <Polar
                 data={this.state.chartData}
                 options={{
                     title:{
@@ -117,7 +139,9 @@ class Grafica extends Component{
                 onChange={this.handleChangeMark} >
                 <option value="barras">Barras</option>
                 <option value="pie">Pie</option>
+                <option value="polar">Polar</option>
                 <option value="area">Área</option>
+                
                 </select>
             </div>
                 {this.graficarEn(this.state.tipo)}
