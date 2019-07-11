@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import '../App.css';
-import firebase from '../Firebase';
+import firebase from './Firebase';
 import TopBar from './TopBar';
 import Grafica from './Grafica';
 import { savePDF } from '@progress/kendo-react-pdf';
