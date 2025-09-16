@@ -44,6 +44,8 @@ It includes interactive visualizations with **Chart.js**, **CanvasJS**, and **Ke
    ```
    /src/services/firebase.js
 
+Note: Sample Data - [https://github.com/VivianGomez/bhelp-dashboard/blob/master/src/bhelp-48327-export.json](https://github.com/VivianGomez/bhelp-dashboard/blob/master/src/bhelp-48327-export.json)
+
 7. Run the development server:
    ```
    npm start
