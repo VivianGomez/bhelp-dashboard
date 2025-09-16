@@ -52,7 +52,10 @@ It includes interactive visualizations with **Chart.js**, **CanvasJS**, and **Ke
     ```
     http://localhost:3000
 
-##📦 Available Scripts
+---
+
+
+## 📦 Available Scripts
 
 npm start → Runs the app in development mode
 
@@ -62,17 +65,21 @@ npm test → Runs tests
 
 npm run eject → Exposes the React configuration
 
-##⚠️ Notes
+## ⚠️ Notes
 
 This is a demo/prototype project, not intended for production use without further improvements.
 
 Firebase SDK used is from 2019; upgrading may be required for compatibility.
 
-##📜 License
+---
+
+## 📜 License
 
 This project is licensed under the MIT License.
 
-##👩‍💻 Author
+---
+
+## 👩‍💻 Author
 
 [Vivian Gómez]([url](https://viviangomez.github.io/#/))
 
