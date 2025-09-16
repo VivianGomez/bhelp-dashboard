@@ -1,0 +1,74 @@
+{
+  "especialistas": {
+    "nombre": "put here name of doctors"
+  },
+  "tareas": {
+    "-LaXp7mwmU7z3ExYvelT": {
+      "descripcion": "description of a task ",
+      "fecha": "Thu Mar 21 2019",
+      "hora": "19:37 PM",
+      "id": "-LaXp7mwmU7z3ExYvelT",
+      "titulo": "title of a task"
+    },
+    "-LaXpBgDNTRC62FmSZ5l": {
+      "descripcion": "description of a task ",
+      "fecha": "Thu Mar 21 2019",
+      "hora": "19:37 PM",
+      "id": "-LaXpBgDNTRC62FmSZ5l",
+      "titulo": "title of a task"
+    },
+    "-LaXpEeK1hCndvG4vbNR": {
+      "descripcion": "description of a task ",
+      "fecha": "Thu Mar 21 2019",
+      "hora": "19:37 PM",
+      "id": "-LaXpEeK1hCndvG4vbNR",
+      "titulo": "title of a task"
+    }
+  },
+  "tutores": [
+    "lauCastro@hotmail.com",
+    {
+      "edad": 25,
+      "hijos": [
+        1,
+        {
+          "altura": 50,
+          "bebe": 1,
+          "edad": 1,
+          "embarazo": 0,
+          "niño": 0,
+          "nombre": "Maria Fernanda",
+          "peso": 20,
+          "sexo": 1,
+          "tareas": {
+            "tareasAlimentos": [
+              1,
+              {
+                "categoria": "Alimentos",
+                "descripcion": "Dar merienda papilla",
+                "fecha": "mier,22 mar 2019",
+                "hora": "20:00PM ",
+                "prioridad": "Media",
+                "titulo": "Merienda papilla"
+              }
+            ],
+            "tareasCitas": [
+              1,
+              {
+                "titulo": "pediatria"
+              }
+            ],
+            "tareasMedicinas": [
+              1,
+              {
+                "titulos": "vitaminas"
+              }
+            ]
+          }
+        }
+      ],
+      "nombre": "Laura Castro",
+      "sexo": 1
+    }
+  ]
+}
